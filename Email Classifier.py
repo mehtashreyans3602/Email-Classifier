@@ -4,7 +4,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 
 # Load the dataset
-data = pd.read_csv('D:\Email Classifier\spam.csv')
+data = pd.read_csv('spam.csv')
 
 # Split the data into features (email text) and labels (spam or not)
 X = data['Message']
